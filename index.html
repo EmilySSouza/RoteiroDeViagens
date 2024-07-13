@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Roteiro de Viagens</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="./index.js" defer></script>
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/dayjs@1/locale/pt-br.js"></script>
+  <script>dayjs.locale('pt-br')</script>
+</head>
+
+<body>
+  <div id="app">
+
+    <form onsubmit="salvarAtividade(event)">
+      <div id="place" class="card-bg">
+        <img src="./assets/maps.svg" alt="Imagem de um ping de mapa para selecionar o destino">
+        Florianópolis, SC
+      </div>
+      <div class="fields">
+
+        <div class="field-wrapper">
+          <img src="./assets/tag.svg" alt="Imagem de tag para dizer qual é a atividade">
+          <input type="text" placeholder="Qual a atividade?" name="atividade" required>
+        </div>
+
+        <div class="field-wrapper">
+          <img src="./assets/calendar.svg" alt="Imagem de um calendário para qual a data que deseja">
+          <select name="dia">
+            <option value="2024-02-01">01 de fevereiro</option>
+          </select>
+        </div>
+
+        <div class="field-wrapper">
+          <img src="./assets/clock.svg" alt="Imagem de um relógio para dizer qual o horário que deseja">
+          <select name="hora">
+            <option value="10:30">10:30</option>
+          </select>
+        </div>
+      </div>
+      <button>Salvar atividade</button>
+    </form>
+
+
+    <main>
+      <h1>Atividades</h1>
+      <section></section>
+    </main>
+
+    <div>
+</body>
+
+</html>
