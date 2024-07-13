@@ -17,7 +17,7 @@ O projeto consiste em um roteiro de viagens, com marcações de data, hora e se 
 - Responsividade;
 
 ## Link
-Para testar o projeto só clicar -> <a href="https://emilyssouza.github.io/RoteiroDeViagens/">aqui</a> <- 
+Para testar o projeto só clicar -> <a href="https://emilyssouza.github.io/RoteiroDeViagens/" target="_blank">aqui</a> <- 
 
 ## Projeto
 <img src="https://i.ibb.co/cxjNc27/image.png" border="0">
